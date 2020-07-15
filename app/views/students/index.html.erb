@@ -1,0 +1,4 @@
+<h3>Hello Students</h3>
+<% @students.each.with_index(1) do |s, i| %>
+	<p><%= i %>: <%= s.to_s %><br></p>
+<% end %>
